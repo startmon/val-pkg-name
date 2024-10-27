@@ -1,5 +1,5 @@
 {
-  "name": "cli-template",
+  "name": "@startmon/val-pkg-name",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
