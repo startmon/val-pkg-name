@@ -1,0 +1,24 @@
+{
+  "name": "cli-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "keywords": [],
+  "scripts": {
+    "start": "tsx -r ./env.config.ts src/index.ts",
+    "dev": "nodemon --watch .env --watch src/**/*.ts --watch env.config.ts --ignore .env.sample --exec tsx -r ./env.config.ts src/index.ts"
+  },
+  "author": "startmon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.4",
+    "tsx": "^4.19.1"
+  }
+}
